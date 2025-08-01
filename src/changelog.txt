@@ -1,0 +1,2 @@
+Dream Job Apply Changelog
+[2025-08-01T09:00:00.000Z] chore: clean up legacy lovable settings
