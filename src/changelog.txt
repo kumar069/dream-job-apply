@@ -2,3 +2,4 @@ Dream Job Apply Changelog
 [2025-08-01T09:00:00.000Z] chore: clean up legacy lovable settings
 [2025-08-11T10:35:56.000Z] feat: implement job application tracking table
 [2025-08-11T11:54:28.000Z] fix: resolve layout spacing on mobile dashboard
+[2025-08-11T03:36:28.000Z] feat: add resume upload and parsing helper
