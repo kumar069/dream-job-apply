@@ -3,3 +3,4 @@ Dream Job Apply Changelog
 [2025-08-11T10:35:56.000Z] feat: implement job application tracking table
 [2025-08-11T11:54:28.000Z] fix: resolve layout spacing on mobile dashboard
 [2025-08-11T03:36:28.000Z] feat: add resume upload and parsing helper
+[2025-08-13T10:54:21.000Z] docs: update API integration guide
