@@ -6,3 +6,4 @@ Dream Job Apply Changelog
 [2025-08-13T10:54:21.000Z] docs: update API integration guide
 [2025-08-13T07:09:16.000Z] style: redesign status badge colors
 [2025-08-13T08:23:40.000Z] feat: add interview scheduler calendar view
+[2025-08-15T04:51:53.000Z] fix: correct date parsing for deadline field
