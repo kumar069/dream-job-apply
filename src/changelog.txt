@@ -12,3 +12,4 @@ Dream Job Apply Changelog
 [2025-08-25T13:02:15.000Z] test: add unit tests for resume parsing service
 [2025-08-25T13:37:10.000Z] fix: solve console warning for missing unique keys in list
 [2025-09-04T13:09:39.000Z] feat: add filter by status (applied, interview, offer, rejected)
+[2025-09-04T07:11:01.000Z] docs: document environment variable configuration
