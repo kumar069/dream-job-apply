@@ -16,3 +16,4 @@ Dream Job Apply Changelog
 [2025-09-04T12:55:26.000Z] feat: integrate search bar for job titles and companies
 [2025-09-04T04:57:17.000Z] perf: optimize dashboard loading time with lazy loading
 [2025-09-14T12:32:49.000Z] refactor: extract form fields into reusable components
+[2025-09-14T04:26:20.000Z] feat: add support for exporting applications list to CSV
