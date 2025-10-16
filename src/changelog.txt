@@ -23,3 +23,4 @@ Dream Job Apply Changelog
 [2025-09-30T05:29:06.000Z] fix: prevent duplicate application submissions
 [2025-10-06T11:12:20.000Z] feat: add salary range input and statistics chart
 [2025-10-16T13:54:11.000Z] refactor: upgrade TanStack Query syntax to latest version
+[2025-10-16T08:28:40.000Z] feat: add dark mode toggle option to settings
