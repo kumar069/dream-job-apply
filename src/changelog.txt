@@ -26,3 +26,4 @@ Dream Job Apply Changelog
 [2025-10-16T08:28:40.000Z] feat: add dark mode toggle option to settings
 [2025-10-18T05:01:26.000Z] docs: add screenshots and setup guide to README
 [2025-10-18T04:07:08.000Z] feat: implement job application tracking table
+[2025-10-24T03:53:17.000Z] fix: resolve layout spacing on mobile dashboard
