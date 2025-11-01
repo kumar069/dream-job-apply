@@ -35,3 +35,4 @@ Dream Job Apply Changelog
 [2025-10-30T05:48:18.000Z] refactor: simplify state management for application form
 [2025-11-01T13:32:32.000Z] feat: integrate email notifications for upcoming interviews
 [2025-11-01T13:16:45.000Z] test: add unit tests for resume parsing service
+[2025-11-01T07:26:47.000Z] fix: solve console warning for missing unique keys in list
