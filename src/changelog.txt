@@ -38,3 +38,4 @@ Dream Job Apply Changelog
 [2025-11-01T07:26:47.000Z] fix: solve console warning for missing unique keys in list
 [2025-11-03T08:27:51.000Z] feat: add filter by status (applied, interview, offer, rejected)
 [2025-11-03T03:57:24.000Z] docs: document environment variable configuration
+[2025-11-03T06:59:08.000Z] feat: integrate search bar for job titles and companies
