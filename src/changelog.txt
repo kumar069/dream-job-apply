@@ -43,3 +43,4 @@ Dream Job Apply Changelog
 [2025-11-05T04:41:17.000Z] refactor: extract form fields into reusable components
 [2025-11-05T03:43:43.000Z] feat: add support for exporting applications list to CSV
 [2025-11-05T05:28:34.000Z] fix: handle empty state when search returns no results
+[2025-11-15T05:33:26.000Z] style: improve typography hierarchy in job card detail view
