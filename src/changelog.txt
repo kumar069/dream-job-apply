@@ -46,3 +46,4 @@ Dream Job Apply Changelog
 [2025-11-15T05:33:26.000Z] style: improve typography hierarchy in job card detail view
 [2025-11-25T07:24:41.000Z] feat: add notes section for individual applications
 [2025-12-01T11:03:09.000Z] fix: prevent duplicate application submissions
+[2025-12-01T11:21:10.000Z] feat: add salary range input and statistics chart
