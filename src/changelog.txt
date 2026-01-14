@@ -64,3 +64,4 @@ Dream Job Apply Changelog
 [2026-01-08T11:32:38.000Z] feat: add filter by status (applied, interview, offer, rejected)
 [2026-01-08T11:47:50.000Z] docs: document environment variable configuration
 [2026-01-14T12:22:34.000Z] feat: integrate search bar for job titles and companies
+[2026-01-14T14:53:56.000Z] perf: optimize dashboard loading time with lazy loading
