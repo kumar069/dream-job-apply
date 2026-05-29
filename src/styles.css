@@ -1,0 +1,178 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* AutoApply — Mastercard-inspired editorial cream design system */
+
+@theme inline {
+  --font-sans: "Sofia Sans", "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-2xl: 40px;
+  --radius-pill: 999px;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+
+  --color-signal: var(--signal);
+  --color-signal-light: var(--signal-light);
+  --color-link: var(--link);
+  --color-ghost: var(--ghost);
+  --color-lifted: var(--lifted);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --shadow-pill: 0 4px 24px 0 rgba(0, 0, 0, 0.04);
+  --shadow-halo: 0 24px 48px 0 rgba(0, 0, 0, 0.08);
+}
+
+:root {
+  --radius: 1.25rem;
+
+  /* Canvas Cream / Ink / Signal */
+  --background: oklch(0.957 0.005 70);          /* #F3F0EE */
+  --foreground: oklch(0.18 0.005 70);           /* #141413 */
+  --lifted: oklch(0.985 0.003 70);              /* #FCFBFA */
+  --card: oklch(0.985 0.003 70);
+  --card-foreground: oklch(0.18 0.005 70);
+  --popover: oklch(0.985 0.003 70);
+  --popover-foreground: oklch(0.18 0.005 70);
+
+  --primary: oklch(0.18 0.005 70);              /* Ink Black */
+  --primary-foreground: oklch(0.957 0.005 70);  /* Cream */
+
+  --secondary: oklch(0.93 0.005 70);
+  --secondary-foreground: oklch(0.18 0.005 70);
+
+  --muted: oklch(0.93 0.005 70);
+  --muted-foreground: oklch(0.5 0.005 70);      /* Slate #696969 */
+
+  --accent: oklch(0.91 0.008 70);
+  --accent-foreground: oklch(0.18 0.005 70);
+
+  --signal: oklch(0.566 0.18 36);               /* #CF4500 Signal Orange */
+  --signal-light: oklch(0.69 0.165 41);         /* #F37338 */
+  --link: oklch(0.51 0.13 264);                 /* #3860BE */
+  --ghost: oklch(0.92 0.008 70);                /* watermark cream-on-cream */
+
+  --destructive: oklch(0.55 0.2 27);
+  --destructive-foreground: oklch(0.985 0.003 70);
+
+  --border: oklch(0.18 0.005 70 / 0.12);
+  --input: oklch(0.18 0.005 70 / 0.18);
+  --ring: oklch(0.18 0.005 70 / 0.4);
+
+  --chart-1: oklch(0.566 0.18 36);
+  --chart-2: oklch(0.18 0.005 70);
+  --chart-3: oklch(0.69 0.165 41);
+  --chart-4: oklch(0.51 0.13 264);
+  --chart-5: oklch(0.5 0.005 70);
+
+  --sidebar: oklch(0.985 0.003 70);
+  --sidebar-foreground: oklch(0.18 0.005 70);
+  --sidebar-primary: oklch(0.18 0.005 70);
+  --sidebar-primary-foreground: oklch(0.957 0.005 70);
+  --sidebar-accent: oklch(0.93 0.005 70);
+  --sidebar-accent-foreground: oklch(0.18 0.005 70);
+  --sidebar-border: oklch(0.18 0.005 70 / 0.1);
+  --sidebar-ring: oklch(0.18 0.005 70 / 0.3);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html, body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-weight: 450;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: var(--color-foreground);
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-foreground);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--color-signal-light);
+  }
+
+  .pill-card {
+    background: var(--color-card);
+    border-radius: 40px;
+    box-shadow: var(--shadow-halo);
+  }
+
+  .ghost-watermark {
+    color: var(--color-ghost);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    user-select: none;
+    pointer-events: none;
+  }
+}
+
+@font-face {
+  font-family: "Sofia Sans";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/sofiasans/v16/Yq6E-LCVXSLy9uPBwlAThu1SY8Cx8rlT69D6.woff2") format("woff2");
+}
